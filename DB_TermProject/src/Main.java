@@ -74,10 +74,10 @@ public class Main
 						System.out.println("shoes_name : ");
 						String shoes_name = sc.next();
 						
-						System.out.println("condition (최상, 상, 중, 하) : ");
+						System.out.println("condition ( 최상, 상, 중, 하 ) : ");
 						String condition  = sc.next();
 						
-						System.out.println("color (여러색이면  ,로 구분): ");
+						System.out.println("color (여러색이면 ,로 구분): ");
 						String color = sc.next();
 						
 						String[] strarr = color.split(",");
