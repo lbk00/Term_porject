@@ -56,13 +56,13 @@ public class Main
 						System.out.println("brand : ");
 						String brand  = sc.next();
 						
-						System.out.println("gender (남성용, 여성용, 공용): ");
+						System.out.println("gender ( 남성용, 여성용, 공용 ): ");
 						String gender  = sc.next();
 						
 						System.out.println("size : ");
 						String size  = sc.next();
 						
-						System.out.println("type (운동화, 슬리퍼, 샌들, 구두, 부츠) : ");
+						System.out.println("type ( 운동화, 슬리퍼, 샌들, 구두, 부츠 ) : ");
 						String type  = sc.next();
 						
 						System.out.println("original_cost: ");
