@@ -104,11 +104,7 @@ public class Main
 						
 						Statement stmt = null;
 						
-						//String res = "INSERT INTO customer(customer_id) VALUES ( 11 )";
 						String res = "INSERT INTO shoes_info VALUES (" + shoes_id + ",'"+ brand + "' ,'"+ gender + "','"+ size + "','"+ type + "',"+ original_cost + ", 111 ,'"+shoes_name + "','" + condition + "',"+ discount_rate + ","+ price + ")";
-						//String res = "INSERT INTO shoes_info VALUES (" //shoes_id , brand , gender ,  type , original_cost , wholesaler_id , shoes_name , s_condition  , discount_rate , price
-						//		 + shoes_id + ","+ brand + "," + gender +"," + size + "," +type + "," + original_cost + "," + wholesaler_id + "," + shoes_name + "," + condition + "," + discount_rate + "," + price + ")";
-						
 						
 						stmt = con.createStatement();
 						
