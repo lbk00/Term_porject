@@ -68,9 +68,6 @@ public class Main
 						System.out.println("original_cost: ");
 						int original_cost  = sc.nextInt();
 						
-						//System.out.println("wholesaler_id : ");
-						//int wholesaler_id = sc.nextInt();
-						
 						System.out.println("shoes_name : ");
 						String shoes_name = sc.next();
 						
